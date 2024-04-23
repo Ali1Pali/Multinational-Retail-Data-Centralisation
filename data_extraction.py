@@ -1,12 +1,11 @@
 import pandas as pd
-import tabula
 import requests
+import tabula
 
 
 class DataExtractor:
 
     def read_rds_table(self, db_conn, table_name: str):
-        
         #Initialize database engine and check if table is included
         engine = db_conn.init_db_engine()
         tables = db_conn.list_db_tables()

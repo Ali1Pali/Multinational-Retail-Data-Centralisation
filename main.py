@@ -1,6 +1,6 @@
-from database_utils import DatabaseConnector
 from data_cleaning import DataCleaning
 from data_extraction import DataExtractor
+from database_utils import DatabaseConnector
 
 # Defining classes
 db = DatabaseConnector('D:\AICore\sales_data\db_creds.yaml')

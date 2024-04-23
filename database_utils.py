@@ -1,7 +1,7 @@
-import yaml
-import pandas as pd
 from sqlalchemy import inspect
 from sqlalchemy import create_engine
+import pandas as pd
+import yaml
 
 
 class DatabaseConnector:
