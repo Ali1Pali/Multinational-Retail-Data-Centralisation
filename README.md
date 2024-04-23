@@ -12,13 +12,15 @@ This project's aim is to extarct and clean data from several data sources, then 
 
 ## Usage
 
- An example of the full code in use is included in the file `main.py`
+ An example of the full code in use is included in the file `main.py`, and an example of SQL queries is included in the file `data_queries.sql`
  
  - Use the methods from the DataExtractor class in the `data_extraction.py` file to extract the data
 
  - Use the methods from the DataCleaning class in the `data_cleaning.py` file to clean the extracted data
 
   - Use the methods from the DatabaseConnector class in the `database_utils.py` file to extract your credentials then upload the data to a local database
+
+  - Run any necessary SQL queries in your database
 
 
 ## License
